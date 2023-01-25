@@ -1,0 +1,71 @@
+.super-admin-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 100vh;
+  padding: 60px;
+}
+.super-admin-enter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+  width: 40%;
+  /* background-color: lightgray; */
+  box-shadow: 10px 16px 16px 10px rgb(209, 203, 203);
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin-right: 50px;
+}
+.admin-heading {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.admin-para {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.label {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.button {
+  color: white;
+  background-color: blue;
+  height: 32px;
+  width: 110px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 12px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.input {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: 'Roboto';
+  margin-top: 5px;
+}
+.span {
+  color: rgb(47, 95, 183);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  /* margin-bottom: 5px; */
+}

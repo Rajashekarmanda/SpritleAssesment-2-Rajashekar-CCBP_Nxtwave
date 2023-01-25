@@ -1,0 +1,30 @@
+.ticket-booking-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  /* border: 2px solid red; */
+  padding: 100px;
+}
+.passengers-details-fill-form {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px 16px rgb(229, 226, 226);
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  padding: 10px;
+}
+.passengers-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 70%;
+  margin-left: 15px;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  background-color: lightslategray;
+}
